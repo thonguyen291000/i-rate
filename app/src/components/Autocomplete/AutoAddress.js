@@ -39,7 +39,7 @@ const AutoAddress = ({ parent, address }) => {
         initMap();
     });
 
-    // Google places address
+    // This function I refer from Google API document
     function initMap() {
         let map;
         if(address) {

@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "20%"
   }
 }));
-
+// This component I refer from http://nygardk.github.io/react-share/
 const SocialShare = (props) => {
   const { title, url } = props;
 

@@ -51,6 +51,7 @@ const AlertDialog = ({action, description, title, type, parent}) => {
                         <DeleteIcon />
                     </IconButton>
                 </Tooltip>
+//              This dialog I refer from material ui dialog
                 <Dialog
                     open={open}
                     onClose={handleClose}

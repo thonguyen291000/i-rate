@@ -47,7 +47,7 @@ const CardRestaurant = ({restaurant, flag, deleteRestaurant, history}) => {
   const handleDelete = () => {
     deleteRestaurant(restaurant.id);
   }
-
+  // This card I refer from Material UI card 
   // Check apartment card shows for which page
   if(restaurant) {
     return (

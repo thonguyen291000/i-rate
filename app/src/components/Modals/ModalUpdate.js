@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "20%"
   }
 }));
-
+// This modal I refer from Material UI modal
 const ModalUpdate = ({restaurant, history}) => {
   const classes = useStyles();
   //Set state

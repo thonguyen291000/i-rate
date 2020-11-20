@@ -11,22 +11,22 @@ Here are some technical requirments that you must have to run the app successful
 6. Cordova environment.
 7. Genymotion emulation flatform or a real android phone.
 ## Installation
-To sure that everything is clear, I give you some tips to prepare all prerequistes as good as possible.
-1. NPM package manager and Nodejs:
+###### To sure that everything is clear, I give you some tips to prepare all prerequistes as good as possible.
+> NPM package manager and Nodejs:
   - To set up both, you only need to download NodeJS installer at [NodeJS Website](https://nodejs.org/en/) and install it normally.
-2. Git CLI:
+> Git CLI:
   - To install Git CLI, you will visit [Git Pages](https://git-scm.com/downloads). Then, you download with suitable operating system and install it.
-3. Java jdk 8:
+> Java jdk 8:
   - Here is which website you need to visit and download a suitable installer to install it. [Java JDK Website](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
-4. Android Studio:
+> Android Studio:
   - Before anything, you must sure that you have installed Java SE Development Kit successfully.
   - Here is the download page of this software [Android Studio Website](https://developer.android.com/studio). 
-5. Cordova environment:
+> Cordova environment:
   - This installation can be complex because of its requirements. You can follow steps in [Cordova document](https://cordova.apache.org/docs/en/latest/) to get it. 
-6. Genymotion (optional):
+> Genymotion (optional):
   - This is an option because you can use a real device or a device supported by Android Studio. I only give you the main page of [The Genymotion](https://www.genymotion.com/).
  ## How to run
- After preparing prerequisites completely, I show you steps to run my app on your workplace. 
+ ###### After preparing prerequisites completely, I show you steps to run my app on your workplace. 
   - Firstly, you need to clone my project by downloading file zip or run this statement in Git CLI.
 ```
 git clone https://github.com/thonguyen291000/i-rate.git
@@ -36,7 +36,7 @@ git clone https://github.com/thonguyen291000/i-rate.git
   cd app
   npm install
   ```
-  - Then, you continue typing two below statements"
+  - Then, you continue typing two below statements:
   ```
   cd ../
   cordova platform add android

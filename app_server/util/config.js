@@ -1,3 +1,4 @@
+// I refer this from Firebase document
 module.exports = {
     apiKey: "AIzaSyBXEiCTqigljXoVX_MXGUBFrLNH-rBt1_E",
     authDomain: "rentalz-4f645.firebaseapp.com",

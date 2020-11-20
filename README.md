@@ -27,16 +27,12 @@ Here are some technical requirments that you must have to run the app successful
   > This is an option because you can use a real device or a device supported by Android Studio. I only give you the main page of [The Genymotion](https://www.genymotion.com/).
  ## How to run
  #### After preparing prerequisites completely, I show you steps to run my app on your workplace. 
-  - Firstly, you need to clone my project by downloading file zip or run this statement in Git CLI.
-```
-git clone https://github.com/thonguyen291000/i-rate.git
-```
-  - Secondly, you open the cloned folder, open the Git CLI in it, and type those statements:
+  - Firstly, you open the extracted folder, open the Git CLI in it, and type those statements:
   ```
   cd app
   npm install
   ```
-  - Then, you continue typing two below statements:
+  - Secondly, you continue typing two below statements:
   ```
   cd ../
   cordova platform add android

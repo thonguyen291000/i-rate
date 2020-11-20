@@ -11,7 +11,7 @@ Here are some technical requirments that you must have to run the app successful
 6. Cordova environment.
 7. Genymotion emulation flatform or a real android phone.
 ## Installation
-###### To sure that everything is clear, I give you some tips to prepare all prerequistes as good as possible.
+###To sure that everything is clear, I give you some tips to prepare all prerequistes as good as possible.
 > NPM package manager and Nodejs:
   - To set up both, you only need to download NodeJS installer at [NodeJS Website](https://nodejs.org/en/) and install it normally.
 > Git CLI:
@@ -26,7 +26,7 @@ Here are some technical requirments that you must have to run the app successful
 > Genymotion (optional):
   - This is an option because you can use a real device or a device supported by Android Studio. I only give you the main page of [The Genymotion](https://www.genymotion.com/).
  ## How to run
- ###### After preparing prerequisites completely, I show you steps to run my app on your workplace. 
+ ### After preparing prerequisites completely, I show you steps to run my app on your workplace. 
   - Firstly, you need to clone my project by downloading file zip or run this statement in Git CLI.
 ```
 git clone https://github.com/thonguyen291000/i-rate.git

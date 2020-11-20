@@ -24,12 +24,18 @@ To sure that everything is clear, I give you some tips to prepare all prerequist
   - This is an option because you can use a real device or a device supported by Android Studio. I only give you the main page of [The Genymotion](https://www.genymotion.com/).
  ## How to run
  After preparing prerequisites completely, I show you steps to run my app on your workplace. 
-  - Firstly, you need to clone my project by downloadling file zip or run this statement in Git CLI.
+  - Firstly, you need to clone my project by downloading file zip or run this statement in Git CLI.
 ```
 git clone https://github.com/thonguyen291000/i-rate.git
 ```
-  - Seconly, you need to prepare a device that can be a real device sush as your phone or a vitural device supported by Android Studio or Genymotion.
-  - Finally, you open Git CLI in cloned folder and copy paste the below statement:
+  - Secondly, you open the cloned folder, open the Git CLI in it, and type those statements:
   ```
+  cd app
+  npm install
+  ```
+  - After that, you need to prepare a device that can be a real device sush as your phone or a vitural device supported by Android Studio or Genymotion.
+  - Finally, in the opend Git CLI, running two statements:
+  ```
+  cd ../
   ./build.sh
   ```

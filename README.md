@@ -33,9 +33,13 @@ git clone https://github.com/thonguyen291000/i-rate.git
   cd app
   npm install
   ```
-  - After that, you need to prepare a device that can be a real device sush as your phone or a vitural device supported by Android Studio or Genymotion.
-  - Finally, in the opend Git CLI, running two statements:
+  - Then, you continue typing two below statements"
   ```
   cd ../
+  cordova flatform add android
+  ```
+  - After that, you need to prepare a device that can be a real device sush as your phone or a vitural device supported by Android Studio or Genymotion. It must be a Android device.
+  - Finally, in the opend Git CLI, running this statement:
+  ```
   ./build.sh
   ```

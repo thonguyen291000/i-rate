@@ -1,5 +1,5 @@
 const {admin, db} = require('./admin');
-
+// I refer this module from https://github.com/hidjou/classsed-react-firebase-functions
 module.exports = (req, res, next) => {
     let idToken;
     if(req.headers.authorization && req.headers.authorization.startsWith('Bearer ')){
